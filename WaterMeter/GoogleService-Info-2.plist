@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>810503504920-vldfl42j8v9ska28deejdvfkh2lhkqi5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.810503504920-vldfl42j8v9ska28deejdvfkh2lhkqi5</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBu2VFdQ8nlO8LApGLzsvHk8whuj8gvB5M</string>
+	<key>GCM_SENDER_ID</key>
+	<string>810503504920</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.WaterMeter</string>
+	<key>PROJECT_ID</key>
+	<string>watermeter-8be72</string>
+	<key>STORAGE_BUCKET</key>
+	<string>watermeter-8be72.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:810503504920:ios:6dd31b85be1f8a4a516f6d</string>
+	<key>DATABASE_URL</key>
+	<string>https://watermeter-8be72.firebaseio.com</string>
+</dict>
+</plist>

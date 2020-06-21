@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D42141D00489612E6AEABA19 /* Pods_WaterMeter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B1DD57B3038C1DDF6ACF7C /* Pods_WaterMeter.framework */; };
+		F40CB41B2375544A00A91C87 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40CB41A2375544A00A91C87 /* GradientView.swift */; };
+		F40CB41E23756AF200A91C87 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40CB41D23756AF200A91C87 /* Constants.swift */; };
+		F40CB42023759C3600A91C87 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40CB41F23759C3600A91C87 /* LoginVC.swift */; };
+		F40CB4222375AB3900A91C87 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40CB4212375AB3900A91C87 /* CreateAccountVC.swift */; };
+		F422668E23741AA500B9D31F /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F422668D23741AA500B9D31F /* MenuVC.swift */; };
+		F422669023741ADC00B9D31F /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F422668F23741ADC00B9D31F /* MainVC.swift */; };
+		F42266BC237469FB00B9D31F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42266BA237469FB00B9D31F /* SWRevealViewController.m */; };
+		F437E1A8239926EC0071FD49 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = F437E1A7239926EC0071FD49 /* History.swift */; };
+		F4A40782237AA8CD000026F3 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A40781237AA8CD000026F3 /* CircleImage.swift */; };
+		F4B47E6B23956986006AE834 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B47E6A23956986006AE834 /* DetailVC.swift */; };
+		F4B76A2423E2D10400AC426B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4B76A2323E2D10300AC426B /* GoogleService-Info.plist */; };
+		F4D09706238BDA3B004FA6DE /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D09705238BDA3B004FA6DE /* AboutVC.swift */; };
+		F4D09708238BDA57004FA6DE /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D09707238BDA57004FA6DE /* HistoryVC.swift */; };
+		F4D8BCF52391325500B93946 /* UserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8BCF42391325500B93946 /* UserVC.swift */; };
+		F4D8BCF72391327000B93946 /* AdministrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8BCF62391327000B93946 /* AdministrationVC.swift */; };
+		F4DE88C0237BE857007070BE /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DE88BE237BE857007070BE /* ProfileVC.swift */; };
+		F4DE88C1237BE857007070BE /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4DE88BF237BE857007070BE /* ProfileVC.xib */; };
+		F4DE88C5237C2027007070BE /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DE88C4237C2027007070BE /* Profile.swift */; };
+		F4EB478423AB6C620040BF40 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EB478323AB6C620040BF40 /* Main.swift */; };
+		F4ED5FFC238291E400E4703F /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ED5FFB238291E400E4703F /* SettingsVC.swift */; };
+		F4ED5FFE2382BC7700E4703F /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ED5FFD2382BC7700E4703F /* CheckBox.swift */; };
+		F4F46EA323730CD1000EF9C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F46EA223730CD1000EF9C7 /* AppDelegate.swift */; };
+		F4F46EA823730CD1000EF9C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F46EA623730CD1000EF9C7 /* Main.storyboard */; };
+		F4F46EAA23730CD3000EF9C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4F46EA923730CD3000EF9C7 /* Assets.xcassets */; };
+		F4F46EAD23730CD3000EF9C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F46EAB23730CD3000EF9C7 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		121CCABB3D29EB6C0DB5761E /* Pods-WaterMeter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterMeter.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaterMeter/Pods-WaterMeter.release.xcconfig"; sourceTree = "<group>"; };
+		29D998B508C0D968FDCA2B2C /* Pods-WaterMeter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterMeter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WaterMeter/Pods-WaterMeter.debug.xcconfig"; sourceTree = "<group>"; };
+		49B1DD57B3038C1DDF6ACF7C /* Pods_WaterMeter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaterMeter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40CB41A2375544A00A91C87 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		F40CB41D23756AF200A91C87 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F40CB41F23759C3600A91C87 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		F40CB4212375AB3900A91C87 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		F422668D23741AA500B9D31F /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		F422668F23741ADC00B9D31F /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		F42266B9237469FA00B9D31F /* WaterMeter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WaterMeter-Bridging-Header.h"; sourceTree = "<group>"; };
+		F42266BA237469FB00B9D31F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		F42266BB237469FB00B9D31F /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		F437E1A7239926EC0071FD49 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		F4A40781237AA8CD000026F3 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		F4B47E6A23956986006AE834 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		F4B76A2323E2D10300AC426B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F4D09705238BDA3B004FA6DE /* AboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		F4D09707238BDA57004FA6DE /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		F4D8BCF42391325500B93946 /* UserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVC.swift; sourceTree = "<group>"; };
+		F4D8BCF62391327000B93946 /* AdministrationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdministrationVC.swift; sourceTree = "<group>"; };
+		F4DE88BE237BE857007070BE /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		F4DE88BF237BE857007070BE /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
+		F4DE88C4237C2027007070BE /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		F4EB478323AB6C620040BF40 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		F4ED5FFB238291E400E4703F /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		F4ED5FFD2382BC7700E4703F /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		F4F46E9F23730CD1000EF9C7 /* WaterMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F46EA223730CD1000EF9C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4F46EA723730CD1000EF9C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4F46EA923730CD3000EF9C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4F46EAC23730CD3000EF9C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4F46EAE23730CD3000EF9C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4F46E9C23730CD1000EF9C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42141D00489612E6AEABA19 /* Pods_WaterMeter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		277B6795F348C460BBA4CEB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29D998B508C0D968FDCA2B2C /* Pods-WaterMeter.debug.xcconfig */,
+				121CCABB3D29EB6C0DB5761E /* Pods-WaterMeter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		38554C851F28E08D8A6C63D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49B1DD57B3038C1DDF6ACF7C /* Pods_WaterMeter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F40CB41C23756AD200A91C87 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F40CB41D23756AF200A91C87 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F42266822374138D00B9D31F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F422668D23741AA500B9D31F /* MenuVC.swift */,
+				F422668F23741ADC00B9D31F /* MainVC.swift */,
+				F40CB41F23759C3600A91C87 /* LoginVC.swift */,
+				F40CB4212375AB3900A91C87 /* CreateAccountVC.swift */,
+				F4DE88BE237BE857007070BE /* ProfileVC.swift */,
+				F4ED5FFB238291E400E4703F /* SettingsVC.swift */,
+				F4ED5FFD2382BC7700E4703F /* CheckBox.swift */,
+				F4D09705238BDA3B004FA6DE /* AboutVC.swift */,
+				F4D09707238BDA57004FA6DE /* HistoryVC.swift */,
+				F4D8BCF42391325500B93946 /* UserVC.swift */,
+				F4D8BCF62391327000B93946 /* AdministrationVC.swift */,
+				F4B47E6A23956986006AE834 /* DetailVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F42266832374139400B9D31F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F40CB41A2375544A00A91C87 /* GradientView.swift */,
+				F4A40781237AA8CD000026F3 /* CircleImage.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F42266842374139B00B9D31F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4DE88C4237C2027007070BE /* Profile.swift */,
+				F437E1A7239926EC0071FD49 /* History.swift */,
+				F4EB478323AB6C620040BF40 /* Main.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F42266B42374666600B9D31F /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				F42266BB237469FB00B9D31F /* SWRevealViewController.h */,
+				F42266BA237469FB00B9D31F /* SWRevealViewController.m */,
+				F42266B9237469FA00B9D31F /* WaterMeter-Bridging-Header.h */,
+			);
+			name = Supporting;
+			path = ../Supporting;
+			sourceTree = "<group>";
+		};
+		F4DE88C2237BE87F007070BE /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				F4DE88BF237BE857007070BE /* ProfileVC.xib */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
+		F4F46E9623730CD1000EF9C7 = {
+			isa = PBXGroup;
+			children = (
+				277B6795F348C460BBA4CEB0 /* Pods */,
+				F4F46EA123730CD1000EF9C7 /* WaterMeter */,
+				F4F46EA023730CD1000EF9C7 /* Products */,
+				38554C851F28E08D8A6C63D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F4F46EA023730CD1000EF9C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4F46E9F23730CD1000EF9C7 /* WaterMeter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4F46EA123730CD1000EF9C7 /* WaterMeter */ = {
+			isa = PBXGroup;
+			children = (
+				F4DE88C2237BE87F007070BE /* XIBs */,
+				F40CB41C23756AD200A91C87 /* Utilities */,
+				F42266B42374666600B9D31F /* Supporting */,
+				F42266842374139B00B9D31F /* Model */,
+				F42266832374139400B9D31F /* View */,
+				F42266822374138D00B9D31F /* Controller */,
+				F4F46EA223730CD1000EF9C7 /* AppDelegate.swift */,
+				F4F46EA623730CD1000EF9C7 /* Main.storyboard */,
+				F4F46EA923730CD3000EF9C7 /* Assets.xcassets */,
+				F4F46EAB23730CD3000EF9C7 /* LaunchScreen.storyboard */,
+				F4F46EAE23730CD3000EF9C7 /* Info.plist */,
+				F4B76A2323E2D10300AC426B /* GoogleService-Info.plist */,
+			);
+			path = WaterMeter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4F46E9E23730CD1000EF9C7 /* WaterMeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4F46EB123730CD3000EF9C7 /* Build configuration list for PBXNativeTarget "WaterMeter" */;
+			buildPhases = (
+				58E46A42A49CB3ACF4ED6CD1 /* [CP] Check Pods Manifest.lock */,
+				F4F46E9B23730CD1000EF9C7 /* Sources */,
+				F4F46E9C23730CD1000EF9C7 /* Frameworks */,
+				F4F46E9D23730CD1000EF9C7 /* Resources */,
+				A3AFCE70BA4738191E4F13DF /* [CP] Embed Pods Frameworks */,
+				AAEFA082FD1F76F14067D69A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterMeter;
+			productName = WaterMeter;
+			productReference = F4F46E9F23730CD1000EF9C7 /* WaterMeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4F46E9723730CD1000EF9C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "petruta maties";
+				TargetAttributes = {
+					F4F46E9E23730CD1000EF9C7 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = F4F46E9A23730CD1000EF9C7 /* Build configuration list for PBXProject "WaterMeter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4F46E9623730CD1000EF9C7;
+			productRefGroup = F4F46EA023730CD1000EF9C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4F46E9E23730CD1000EF9C7 /* WaterMeter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4F46E9D23730CD1000EF9C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F46EAD23730CD3000EF9C7 /* LaunchScreen.storyboard in Resources */,
+				F4F46EAA23730CD3000EF9C7 /* Assets.xcassets in Resources */,
+				F4F46EA823730CD1000EF9C7 /* Main.storyboard in Resources */,
+				F4DE88C1237BE857007070BE /* ProfileVC.xib in Resources */,
+				F4B76A2423E2D10400AC426B /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58E46A42A49CB3ACF4ED6CD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WaterMeter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3AFCE70BA4738191E4F13DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WaterMeter/Pods-WaterMeter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaterMeter/Pods-WaterMeter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAEFA082FD1F76F14067D69A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WaterMeter/Pods-WaterMeter-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleMobileVision/GoogleMVTextDetectorResources.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMVTextDetectorResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaterMeter/Pods-WaterMeter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4F46E9B23730CD1000EF9C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D09706238BDA3B004FA6DE /* AboutVC.swift in Sources */,
+				F4D09708238BDA57004FA6DE /* HistoryVC.swift in Sources */,
+				F437E1A8239926EC0071FD49 /* History.swift in Sources */,
+				F4DE88C0237BE857007070BE /* ProfileVC.swift in Sources */,
+				F4F46EA323730CD1000EF9C7 /* AppDelegate.swift in Sources */,
+				F422669023741ADC00B9D31F /* MainVC.swift in Sources */,
+				F4B47E6B23956986006AE834 /* DetailVC.swift in Sources */,
+				F40CB4222375AB3900A91C87 /* CreateAccountVC.swift in Sources */,
+				F40CB42023759C3600A91C87 /* LoginVC.swift in Sources */,
+				F40CB41B2375544A00A91C87 /* GradientView.swift in Sources */,
+				F4EB478423AB6C620040BF40 /* Main.swift in Sources */,
+				F4ED5FFC238291E400E4703F /* SettingsVC.swift in Sources */,
+				F4A40782237AA8CD000026F3 /* CircleImage.swift in Sources */,
+				F422668E23741AA500B9D31F /* MenuVC.swift in Sources */,
+				F4DE88C5237C2027007070BE /* Profile.swift in Sources */,
+				F42266BC237469FB00B9D31F /* SWRevealViewController.m in Sources */,
+				F4ED5FFE2382BC7700E4703F /* CheckBox.swift in Sources */,
+				F40CB41E23756AF200A91C87 /* Constants.swift in Sources */,
+				F4D8BCF72391327000B93946 /* AdministrationVC.swift in Sources */,
+				F4D8BCF52391325500B93946 /* UserVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4F46EA623730CD1000EF9C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4F46EA723730CD1000EF9C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4F46EAB23730CD3000EF9C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4F46EAC23730CD3000EF9C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4F46EAF23730CD3000EF9C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4F46EB023730CD3000EF9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4F46EB223730CD3000EF9C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29D998B508C0D968FDCA2B2C /* Pods-WaterMeter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WaterMeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.WaterMeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Supporting/WaterMeter-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F4F46EB323730CD3000EF9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 121CCABB3D29EB6C0DB5761E /* Pods-WaterMeter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WaterMeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.WaterMeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Supporting/WaterMeter-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4F46E9A23730CD1000EF9C7 /* Build configuration list for PBXProject "WaterMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F46EAF23730CD3000EF9C7 /* Debug */,
+				F4F46EB023730CD3000EF9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4F46EB123730CD3000EF9C7 /* Build configuration list for PBXNativeTarget "WaterMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F46EB223730CD3000EF9C7 /* Debug */,
+				F4F46EB323730CD3000EF9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4F46E9723730CD1000EF9C7 /* Project object */;
+}
